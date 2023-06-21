@@ -1,0 +1,66 @@
+2023-06-18 11:22:16,396 INFO    StreamThr :10148 [internal.py:wandb_internal():87] W&B internal server running at pid: 10148, started at: 2023-06-18 11:22:16.395603
+2023-06-18 11:22:16,399 DEBUG   HandlerThread:10148 [handler.py:handle_request():144] handle_request: status
+2023-06-18 11:22:16,404 INFO    WriterThread:10148 [datastore.py:open_for_write():85] open: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_112216-4b8rjs40\run-4b8rjs40.wandb
+2023-06-18 11:22:16,407 DEBUG   SenderThread:10148 [sender.py:send():336] send: header
+2023-06-18 11:22:16,829 DEBUG   SenderThread:10148 [sender.py:send():336] send: run
+2023-06-18 11:22:16,843 INFO    SenderThread:10148 [sender.py:_maybe_setup_resume():723] checking resume status for None/train/4b8rjs40
+2023-06-18 11:22:18,451 DEBUG   HandlerThread:10148 [handler.py:handle_request():144] handle_request: check_version
+2023-06-18 11:22:18,458 INFO    SenderThread:10148 [dir_watcher.py:__init__():216] watching files in: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_112216-4b8rjs40\files
+2023-06-18 11:22:18,458 INFO    SenderThread:10148 [sender.py:_start_run_threads():1067] run started: 4b8rjs40 with start time 1687067536.398593
+2023-06-18 11:22:18,459 DEBUG   SenderThread:10148 [sender.py:send_request():363] send_request: summary_record
+2023-06-18 11:22:18,460 INFO    SenderThread:10148 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-18 11:22:18,461 DEBUG   SenderThread:10148 [sender.py:send_request():363] send_request: check_version
+2023-06-18 11:22:18,617 DEBUG   HandlerThread:10148 [handler.py:handle_request():144] handle_request: run_start
+2023-06-18 11:22:18,657 DEBUG   HandlerThread:10148 [system_info.py:__init__():31] System info init
+2023-06-18 11:22:18,657 DEBUG   HandlerThread:10148 [system_info.py:__init__():46] System info init done
+2023-06-18 11:22:18,657 INFO    HandlerThread:10148 [system_monitor.py:start():151] Starting system monitor
+2023-06-18 11:22:18,658 INFO    SystemMonitor:10148 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-06-18 11:22:18,658 INFO    HandlerThread:10148 [system_monitor.py:probe():172] Collecting system info
+2023-06-18 11:22:18,662 INFO    SystemMonitor:10148 [interfaces.py:start():168] Started cpu
+2023-06-18 11:22:18,663 INFO    SystemMonitor:10148 [interfaces.py:start():168] Started disk
+2023-06-18 11:22:18,664 INFO    SystemMonitor:10148 [interfaces.py:start():168] Started gpu
+2023-06-18 11:22:18,669 INFO    SystemMonitor:10148 [interfaces.py:start():168] Started memory
+2023-06-18 11:22:18,679 INFO    SystemMonitor:10148 [interfaces.py:start():168] Started network
+2023-06-18 11:22:18,694 DEBUG   HandlerThread:10148 [system_info.py:probe():195] Probing system
+2023-06-18 11:22:18,697 DEBUG   HandlerThread:10148 [system_info.py:_probe_git():180] Probing git
+2023-06-18 11:22:18,698 ERROR   gpu       :10148 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:22:18,698 ERROR   gpu       :10148 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:22:18,878 DEBUG   HandlerThread:10148 [system_info.py:_probe_git():188] Probing git done
+2023-06-18 11:22:18,878 DEBUG   HandlerThread:10148 [system_info.py:probe():241] Probing system done
+2023-06-18 11:22:18,878 DEBUG   HandlerThread:10148 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.0', 'heartbeatAt': '2023-06-18T05:52:18.694958', 'startedAt': '2023-06-18T05:52:16.375589', 'docker': None, 'cuda': None, 'args': ('--img', '320', '--batch', '16', '--epochs', '5', '--data', 'dataset.yaml', '--weights', 'yolov5s.pt'), 'state': 'running', 'program': 'C:\\Users\\HP\\Documents\\deepdrowsinessdetectionYOLO\\yolov5\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/ultralytics/yolov5', 'commit': 'a199480ba6bb527598df11abbc1d679ccda82670'}, 'email': 'harlalkamayank1996@gmail.com', 'root': 'C:/Users/HP/Documents/deepdrowsinessdetectionYOLO/yolov5', 'host': 'MayankHarlalka', 'username': 'HP', 'executable': 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2401.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 2401.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'total': 222.95805740356445, 'used': 197.9847183227539}, 'gpu': 'NVIDIA GeForce 840M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce 840M', 'memory_total': 2147483648}], 'memory': {'total': 7.931785583496094}}
+2023-06-18 11:22:18,879 INFO    HandlerThread:10148 [system_monitor.py:probe():182] Finished collecting system info
+2023-06-18 11:22:18,879 INFO    HandlerThread:10148 [system_monitor.py:probe():185] Publishing system info
+2023-06-18 11:22:18,879 DEBUG   HandlerThread:10148 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-18 11:22:18,882 DEBUG   HandlerThread:10148 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-18 11:22:18,883 INFO    HandlerThread:10148 [system_monitor.py:probe():187] Finished publishing system info
+2023-06-18 11:22:18,908 DEBUG   SenderThread:10148 [sender.py:send():336] send: files
+2023-06-18 11:22:18,908 INFO    SenderThread:10148 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-06-18 11:22:18,921 DEBUG   HandlerThread:10148 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-18 11:22:18,922 DEBUG   SenderThread:10148 [sender.py:send_request():363] send_request: stop_status
+2023-06-18 11:22:19,361 DEBUG   SenderThread:10148 [sender.py:send():336] send: telemetry
+2023-06-18 11:22:19,475 INFO    Thread-17 :10148 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_112216-4b8rjs40\files\requirements.txt
+2023-06-18 11:22:19,475 INFO    Thread-17 :10148 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_112216-4b8rjs40\files\wandb-metadata.json
+2023-06-18 11:22:19,476 INFO    Thread-17 :10148 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_112216-4b8rjs40\files\output.log
+2023-06-18 11:22:19,476 INFO    Thread-17 :10148 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_112216-4b8rjs40\files\wandb-summary.json
+2023-06-18 11:22:19,916 INFO    HandlerThread:10148 [handler.py:finish():841] shutting down handler
+2023-06-18 11:22:19,917 INFO    WriterThread:10148 [datastore.py:close():299] close: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_112216-4b8rjs40\run-4b8rjs40.wandb
+2023-06-18 11:22:19,918 ERROR   StreamThr :10148 [internal.py:wandb_internal():175] Thread SenderThread:
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\internal_util.py", line 49, in run
+    self._run()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\internal_util.py", line 100, in _run
+    self._process(record)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\internal.py", line 329, in _process
+    self._sm.send(record)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\sender.py", line 343, in send
+    send_handler(record)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\sender.py", line 1227, in send_output_raw
+    output_raw.start()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\internal\sender.py", line 158, in start
+    self._reader_thr.start()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\threading.py", line 928, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2023-06-18 11:22:19,939 INFO    wandb-upload_0:10148 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpyvurvo6swandb\pdhxw4cp-wandb-metadata.json
+2023-06-18 11:22:20,724 ERROR   gpu       :10148 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:22:20,724 ERROR   gpu       :10148 [interfaces.py:monitor():129] Failed to sample metric: Not Supported

@@ -1,0 +1,452 @@
+2023-06-20 17:38:52,565 INFO    StreamThr :5984 [internal.py:wandb_internal():87] W&B internal server running at pid: 5984, started at: 2023-06-20 17:38:52.565931
+2023-06-20 17:38:52,565 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status
+2023-06-20 17:38:52,581 INFO    WriterThread:5984 [datastore.py:open_for_write():85] open: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\run-0lnxq5uw.wandb
+2023-06-20 17:38:52,581 DEBUG   SenderThread:5984 [sender.py:send():336] send: header
+2023-06-20 17:38:52,675 DEBUG   SenderThread:5984 [sender.py:send():336] send: run
+2023-06-20 17:38:52,675 INFO    SenderThread:5984 [sender.py:_maybe_setup_resume():723] checking resume status for None/train/0lnxq5uw
+2023-06-20 17:38:54,003 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: check_version
+2023-06-20 17:38:54,003 INFO    SenderThread:5984 [dir_watcher.py:__init__():216] watching files in: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files
+2023-06-20 17:38:54,003 INFO    SenderThread:5984 [sender.py:_start_run_threads():1067] run started: 0lnxq5uw with start time 1687262932.56593
+2023-06-20 17:38:54,003 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:38:54,003 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:38:54,003 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: check_version
+2023-06-20 17:38:54,139 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: run_start
+2023-06-20 17:38:54,497 DEBUG   HandlerThread:5984 [system_info.py:__init__():31] System info init
+2023-06-20 17:38:54,513 DEBUG   HandlerThread:5984 [system_info.py:__init__():46] System info init done
+2023-06-20 17:38:54,513 INFO    HandlerThread:5984 [system_monitor.py:start():151] Starting system monitor
+2023-06-20 17:38:54,513 INFO    SystemMonitor:5984 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-06-20 17:38:54,513 INFO    HandlerThread:5984 [system_monitor.py:probe():172] Collecting system info
+2023-06-20 17:38:54,513 INFO    SystemMonitor:5984 [interfaces.py:start():168] Started cpu
+2023-06-20 17:38:54,513 INFO    SystemMonitor:5984 [interfaces.py:start():168] Started disk
+2023-06-20 17:38:54,513 INFO    SystemMonitor:5984 [interfaces.py:start():168] Started gpu
+2023-06-20 17:38:54,513 INFO    SystemMonitor:5984 [interfaces.py:start():168] Started memory
+2023-06-20 17:38:54,528 INFO    SystemMonitor:5984 [interfaces.py:start():168] Started network
+2023-06-20 17:38:54,544 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:38:54,544 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:38:54,544 DEBUG   HandlerThread:5984 [system_info.py:probe():195] Probing system
+2023-06-20 17:38:54,560 DEBUG   HandlerThread:5984 [system_info.py:_probe_git():180] Probing git
+2023-06-20 17:38:54,908 DEBUG   HandlerThread:5984 [system_info.py:_probe_git():188] Probing git done
+2023-06-20 17:38:54,908 DEBUG   HandlerThread:5984 [system_info.py:probe():241] Probing system done
+2023-06-20 17:38:54,908 DEBUG   HandlerThread:5984 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.0', 'heartbeatAt': '2023-06-20T12:08:54.544516', 'startedAt': '2023-06-20T12:08:52.550305', 'docker': None, 'cuda': None, 'args': ('--img', '320', '--batch', '16', '--epochs', '1', '--data', 'dataset.yaml', '--weights', 'yolov5s.pt', '--workers', '2'), 'state': 'running', 'program': 'C:\\Users\\HP\\Documents\\deepdrowsinessdetectionYOLO\\yolov5\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/ultralytics/yolov5', 'commit': 'a199480ba6bb527598df11abbc1d679ccda82670'}, 'email': 'harlalkamayank1996@gmail.com', 'root': 'C:/Users/HP/Documents/deepdrowsinessdetectionYOLO/yolov5', 'host': 'MayankHarlalka', 'username': 'HP', 'executable': 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2401.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 2401.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'total': 222.95805740356445, 'used': 197.07025146484375}, 'gpu': 'NVIDIA GeForce 840M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce 840M', 'memory_total': 2147483648}], 'memory': {'total': 7.931785583496094}}
+2023-06-20 17:38:54,908 INFO    HandlerThread:5984 [system_monitor.py:probe():182] Finished collecting system info
+2023-06-20 17:38:54,909 INFO    HandlerThread:5984 [system_monitor.py:probe():185] Publishing system info
+2023-06-20 17:38:54,909 DEBUG   HandlerThread:5984 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-20 17:38:54,910 DEBUG   HandlerThread:5984 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-20 17:38:54,912 INFO    HandlerThread:5984 [system_monitor.py:probe():187] Finished publishing system info
+2023-06-20 17:38:54,936 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:38:54,937 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-06-20 17:38:54,954 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-20 17:38:54,954 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: stop_status
+2023-06-20 17:38:55,028 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-metadata.json
+2023-06-20 17:38:55,029 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-summary.json
+2023-06-20 17:38:55,029 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\requirements.txt
+2023-06-20 17:38:55,338 DEBUG   SenderThread:5984 [sender.py:send():336] send: telemetry
+2023-06-20 17:38:56,036 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:38:56,039 INFO    wandb-upload_0:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\ahhrc27r-wandb-metadata.json
+2023-06-20 17:38:56,577 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:38:56,577 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:38:58,057 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:38:58,167 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:38:58,621 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:38:58,622 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:00,641 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:00,641 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:02,676 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:02,676 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:03,192 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:04,685 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:04,685 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:06,730 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:06,730 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:08,183 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:39:08,589 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:08,761 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:08,761 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:09,449 DEBUG   SenderThread:5984 [sender.py:send():336] send: telemetry
+2023-06-20 17:39:09,568 DEBUG   SenderThread:5984 [sender.py:send():336] send: telemetry
+2023-06-20 17:39:09,950 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:09,950 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:10,606 DEBUG   SenderThread:5984 [sender.py:send():336] send: telemetry
+2023-06-20 17:39:10,778 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:10,778 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:12,227 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:39:12,821 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:12,821 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:13,673 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:14,847 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:14,847 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:15,019 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:16,880 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:16,880 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:18,709 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:18,904 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:18,904 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:20,091 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:20,935 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:20,935 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:22,947 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:22,947 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:23,784 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:24,378 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\config.yaml
+2023-06-20 17:39:25,004 ERROR   gpu       :5984 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:39:25,012 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:25,013 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:25,169 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:27,031 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:27,032 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:29,048 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:29,049 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:29,295 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:30,218 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:31,067 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:31,068 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:33,102 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:33,102 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:34,657 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:35,140 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:35,141 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:35,275 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:36,514 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:39:37,162 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:37,163 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:39,194 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:39,194 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:39,704 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:40,323 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:41,225 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:41,225 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:43,257 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:43,257 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:44,738 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:45,286 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:45,286 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:45,356 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:47,317 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:47,318 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:49,349 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:49,349 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:49,784 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:50,403 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:51,381 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:51,381 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:53,409 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:53,410 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:54,552 DEBUG   SystemMonitor:5984 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-06-20 17:39:54,554 DEBUG   SenderThread:5984 [sender.py:send():336] send: stats
+2023-06-20 17:39:55,441 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:39:55,458 ERROR   gpu       :5984 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:39:55,466 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:55,467 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:55,563 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:39:57,491 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:57,492 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:59,506 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:39:59,507 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:00,497 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:00,609 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:01,526 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:01,527 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:03,569 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:03,569 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:05,543 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:05,594 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:05,595 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:05,654 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:07,617 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:07,617 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:09,646 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:09,646 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:10,590 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:10,715 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:11,684 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:11,684 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:13,700 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:13,700 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:15,650 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:15,743 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:15,743 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:16,025 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:16,665 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:17,743 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:17,743 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:19,790 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:19,790 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:20,071 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:20,728 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:21,816 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:21,816 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:22,238 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:23,942 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:23,942 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:24,254 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:24,560 DEBUG   SenderThread:5984 [sender.py:send():336] send: stats
+2023-06-20 17:40:25,903 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:26,013 ERROR   gpu       :5984 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:40:26,028 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:26,028 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:27,586 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:28,039 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:28,039 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:30,055 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:30,055 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:30,320 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:31,663 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:32,085 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:32,085 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:32,351 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:32,476 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:40:32,476 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:32,476 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:40:32,476 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:32,476 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:40:32,476 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:32,476 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:40:32,476 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:32,476 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:40:32,476 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:33,335 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:33,335 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Labels_0_8d0260cce16378675d03.jpg with policy now
+2023-06-20 17:40:33,351 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:33,351 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:33,351 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Labels_0_6a746361d950933c6e62.jpg with policy now
+2023-06-20 17:40:33,366 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-summary.json
+2023-06-20 17:40:33,366 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Labels_0_8d0260cce16378675d03.jpg
+2023-06-20 17:40:33,366 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Labels_0_6a746361d950933c6e62.jpg
+2023-06-20 17:40:33,366 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images
+2023-06-20 17:40:33,366 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media
+2023-06-20 17:40:33,398 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:40:33,398 DEBUG   SenderThread:5984 [sender.py:send():336] send: history
+2023-06-20 17:40:33,398 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:40:33,398 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:34,116 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:34,116 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:34,382 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:34,382 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-summary.json
+2023-06-20 17:40:34,866 INFO    wandb-upload_0:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\35bb5pzm-media/images/Labels_0_8d0260cce16378675d03.jpg
+2023-06-20 17:40:35,226 INFO    wandb-upload_1:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\m043hbhs-media/images/Labels_0_6a746361d950933c6e62.jpg
+2023-06-20 17:40:36,132 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:36,132 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:36,413 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:36,726 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:38,158 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:38,158 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:38,439 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:39,002 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:40,208 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:40,208 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:40,458 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:41,755 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:42,224 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:42,224 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:42,490 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:44,244 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:44,244 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:44,651 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:46,291 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:46,291 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:46,541 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:46,822 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:47,682 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-20 17:40:47,682 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: log_artifact
+2023-06-20 17:40:47,932 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:40:48,307 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:48,322 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_fd6e90fdb6bfba33f445.png
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_985c5a3db4cef5ba1ff1.png
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_d4da0e096986fbf25cba.png
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_c0ceb7d0e4534ce58f6e.jpg
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_2d523ff495bbe5745922.jpg
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_ae42b696bfa8bf3bf322.png
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_7b75de1338f5190bd926.png
+2023-06-20 17:40:48,572 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_f4795365a15afee70ba0.jpg
+2023-06-20 17:40:48,588 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_3531310f9f0ea4996313.jpg
+2023-06-20 17:40:48,588 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_48377c6c9a89111cf76a.png
+2023-06-20 17:40:48,588 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images
+2023-06-20 17:40:48,947 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-20 17:40:50,360 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:50,360 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:52,360 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:52,360 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:53,986 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:40:54,392 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:54,392 ERROR   gpu       :5984 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:40:54,533 INFO    wandb-upload_0:5984 [upload_job.py:push():96] Uploaded file C:\Users\HP\AppData\Local\wandb\wandb\artifacts\staging\tmpnvz9xtu7
+2023-06-20 17:40:56,017 INFO    SenderThread:5984 [sender.py:send_request_log_artifact():1381] logged artifact run_0lnxq5uw_model - {'id': 'QXJ0aWZhY3Q6NDkzNDQ5MjIy', 'digest': '707694a93b691f2a039653a65d8565d4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc4MDMxODE2', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-20 17:40:56,017 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,017 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Validation_1_c0ceb7d0e4534ce58f6e.jpg with policy now
+2023-06-20 17:40:56,017 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:56,033 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,033 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Validation_1_3531310f9f0ea4996313.jpg with policy now
+2023-06-20 17:40:56,033 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,033 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Validation_1_2d523ff495bbe5745922.jpg with policy now
+2023-06-20 17:40:56,033 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,033 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Validation_1_f4795365a15afee70ba0.jpg with policy now
+2023-06-20 17:40:56,033 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,033 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Results_1_ae42b696bfa8bf3bf322.png with policy now
+2023-06-20 17:40:56,033 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,033 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Results_1_985c5a3db4cef5ba1ff1.png with policy now
+2023-06-20 17:40:56,049 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,049 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Results_1_d4da0e096986fbf25cba.png with policy now
+2023-06-20 17:40:56,049 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,049 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Results_1_48377c6c9a89111cf76a.png with policy now
+2023-06-20 17:40:56,049 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,049 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Results_1_fd6e90fdb6bfba33f445.png with policy now
+2023-06-20 17:40:56,049 DEBUG   SenderThread:5984 [sender.py:send():336] send: files
+2023-06-20 17:40:56,049 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file media\images\Results_1_7b75de1338f5190bd926.png with policy now
+2023-06-20 17:40:56,064 DEBUG   SenderThread:5984 [sender.py:send():336] send: history
+2023-06-20 17:40:56,064 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:40:56,064 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:56,064 DEBUG   SenderThread:5984 [sender.py:send():336] send: telemetry
+2023-06-20 17:40:56,064 DEBUG   SenderThread:5984 [sender.py:send():336] send: exit
+2023-06-20 17:40:56,064 INFO    SenderThread:5984 [sender.py:send_exit():559] handling exit code: 0
+2023-06-20 17:40:56,064 INFO    SenderThread:5984 [sender.py:send_exit():561] handling runtime: 113
+2023-06-20 17:40:56,064 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:56,064 INFO    SenderThread:5984 [sender.py:send_exit():567] send defer
+2023-06-20 17:40:56,064 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: poll_exit
+2023-06-20 17:40:56,064 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,064 DEBUG   SenderThread:5984 [sender.py:send():336] send: stats
+2023-06-20 17:40:56,064 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-20 17:40:56,064 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,064 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-06-20 17:40:56,064 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 1
+2023-06-20 17:40:56,064 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,064 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-20 17:40:56,080 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,080 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-06-20 17:40:56,080 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 2
+2023-06-20 17:40:56,080 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,080 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-20 17:40:56,080 INFO    HandlerThread:5984 [system_monitor.py:finish():161] Stopping system monitor
+2023-06-20 17:40:56,111 DEBUG   SystemMonitor:5984 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-06-20 17:40:56,111 DEBUG   SystemMonitor:5984 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-06-20 17:40:56,111 INFO    HandlerThread:5984 [interfaces.py:finish():175] Joined cpu
+2023-06-20 17:40:56,127 INFO    HandlerThread:5984 [interfaces.py:finish():175] Joined disk
+2023-06-20 17:40:56,127 ERROR   gpu       :5984 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:40:56,127 INFO    HandlerThread:5984 [interfaces.py:finish():175] Joined gpu
+2023-06-20 17:40:56,127 INFO    HandlerThread:5984 [interfaces.py:finish():175] Joined memory
+2023-06-20 17:40:56,127 INFO    HandlerThread:5984 [interfaces.py:finish():175] Joined network
+2023-06-20 17:40:56,127 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,127 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 3
+2023-06-20 17:40:56,142 DEBUG   SenderThread:5984 [sender.py:send():336] send: stats
+2023-06-20 17:40:56,142 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,142 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-20 17:40:56,142 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 4
+2023-06-20 17:40:56,142 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,142 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-20 17:40:56,142 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 5
+2023-06-20 17:40:56,142 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,142 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-20 17:40:56,142 DEBUG   SenderThread:5984 [sender.py:send():336] send: summary
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:40:56,142 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-06-20 17:40:56,142 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 6
+2023-06-20 17:40:56,158 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,158 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-20 17:40:56,158 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,158 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-06-20 17:40:56,158 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:40:56,642 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 7
+2023-06-20 17:40:56,642 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:56,642 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-20 17:40:56,642 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:56,642 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-06-20 17:40:56,689 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\config.yaml
+2023-06-20 17:40:56,689 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-summary.json
+2023-06-20 17:40:57,470 INFO    wandb-upload_2:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\u4172v93-media/images/Validation_1_2d523ff495bbe5745922.jpg
+2023-06-20 17:40:57,736 INFO    wandb-upload_3:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\hyifr93i-media/images/Validation_1_f4795365a15afee70ba0.jpg
+2023-06-20 17:40:57,845 INFO    wandb-upload_7:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\ne4lzkmu-media/images/Results_1_48377c6c9a89111cf76a.png
+2023-06-20 17:40:57,845 INFO    wandb-upload_6:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\hry127mp-media/images/Results_1_d4da0e096986fbf25cba.png
+2023-06-20 17:40:57,923 INFO    wandb-upload_8:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\p75dksse-media/images/Results_1_fd6e90fdb6bfba33f445.png
+2023-06-20 17:40:57,939 INFO    wandb-upload_9:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\vd5kavfn-media/images/Results_1_7b75de1338f5190bd926.png
+2023-06-20 17:40:58,033 INFO    wandb-upload_1:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\20nlad37-media/images/Validation_1_c0ceb7d0e4534ce58f6e.jpg
+2023-06-20 17:40:58,127 INFO    wandb-upload_0:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\23xws7qk-media/images/Validation_1_3531310f9f0ea4996313.jpg
+2023-06-20 17:40:58,189 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 8
+2023-06-20 17:40:58,189 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:58,189 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-20 17:40:58,189 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:40:58,189 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-06-20 17:40:58,205 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 9
+2023-06-20 17:40:58,205 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:40:58,205 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-20 17:40:58,220 DEBUG   SenderThread:5984 [sender.py:send():336] send: artifact
+2023-06-20 17:40:58,330 INFO    wandb-upload_5:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\cqpll1c1-media/images/Results_1_985c5a3db4cef5ba1ff1.png
+2023-06-20 17:40:58,361 INFO    wandb-upload_4:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp33bi9entwandb\wvplvb4x-media/images/Results_1_ae42b696bfa8bf3bf322.png
+2023-06-20 17:40:58,720 INFO    Thread-17 :5984 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:40:59,033 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:41:00,642 INFO    wandb-upload_2:5984 [upload_job.py:push():96] Uploaded file C:\Users\HP\AppData\Local\wandb\wandb\artifacts\staging\tmpjaohsyb1
+2023-06-20 17:41:00,642 INFO    wandb-upload_3:5984 [upload_job.py:push():96] Uploaded file C:\Users\HP\AppData\Local\wandb\wandb\artifacts\staging\tmpf3l8idy2
+2023-06-20 17:41:02,986 INFO    SenderThread:5984 [sender.py:send_artifact():1417] sent artifact job-https___github.com_ultralytics_yolov5_train.py - {'id': 'QXJ0aWZhY3Q6NDkzNDQ5MzY3', 'digest': '929463c26186d99935606c42c07454b3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc3NjA5Mzgy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDkxMzAzNjAx', 'versionIndex': 0}}, 'version': 'latest'}
+2023-06-20 17:41:02,986 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:41:02,986 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-06-20 17:41:02,986 INFO    SenderThread:5984 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-06-20 17:41:02,986 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:41:03,752 INFO    SenderThread:5984 [dir_watcher.py:finish():392] scan: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files
+2023-06-20 17:41:03,752 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\config.yaml config.yaml
+2023-06-20 17:41:03,752 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log output.log
+2023-06-20 17:41:03,767 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\requirements.txt requirements.txt
+2023-06-20 17:41:03,783 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-metadata.json wandb-metadata.json
+2023-06-20 17:41:03,783 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-summary.json wandb-summary.json
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Labels_0_6a746361d950933c6e62.jpg media\images\Labels_0_6a746361d950933c6e62.jpg
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Labels_0_8d0260cce16378675d03.jpg media\images\Labels_0_8d0260cce16378675d03.jpg
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_48377c6c9a89111cf76a.png media\images\Results_1_48377c6c9a89111cf76a.png
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_7b75de1338f5190bd926.png media\images\Results_1_7b75de1338f5190bd926.png
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_985c5a3db4cef5ba1ff1.png media\images\Results_1_985c5a3db4cef5ba1ff1.png
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_ae42b696bfa8bf3bf322.png media\images\Results_1_ae42b696bfa8bf3bf322.png
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_d4da0e096986fbf25cba.png media\images\Results_1_d4da0e096986fbf25cba.png
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Results_1_fd6e90fdb6bfba33f445.png media\images\Results_1_fd6e90fdb6bfba33f445.png
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_2d523ff495bbe5745922.jpg media\images\Validation_1_2d523ff495bbe5745922.jpg
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_3531310f9f0ea4996313.jpg media\images\Validation_1_3531310f9f0ea4996313.jpg
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_c0ceb7d0e4534ce58f6e.jpg media\images\Validation_1_c0ceb7d0e4534ce58f6e.jpg
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\media\images\Validation_1_f4795365a15afee70ba0.jpg media\images\Validation_1_f4795365a15afee70ba0.jpg
+2023-06-20 17:41:03,798 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 10
+2023-06-20 17:41:03,798 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:41:03,798 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-20 17:41:03,814 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:41:03,814 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-06-20 17:41:03,814 INFO    SenderThread:5984 [file_pusher.py:finish():162] shutting down file pusher
+2023-06-20 17:41:04,064 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:41:04,689 INFO    wandb-upload_4:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\wandb-summary.json
+2023-06-20 17:41:04,689 INFO    wandb-upload_6:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\config.yaml
+2023-06-20 17:41:04,689 INFO    wandb-upload_9:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\output.log
+2023-06-20 17:41:04,705 INFO    wandb-upload_0:5984 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\files\requirements.txt
+2023-06-20 17:41:04,924 INFO    Thread-16 (_thread_body):5984 [sender.py:transition_state():587] send defer: 11
+2023-06-20 17:41:04,924 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:41:04,924 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-20 17:41:04,924 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:41:04,924 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-06-20 17:41:04,924 INFO    SenderThread:5984 [file_pusher.py:join():167] waiting for file pusher
+2023-06-20 17:41:04,924 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 12
+2023-06-20 17:41:04,924 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:41:04,924 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-20 17:41:04,924 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:41:04,924 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-06-20 17:41:05,892 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 13
+2023-06-20 17:41:05,892 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:41:05,892 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-20 17:41:05,892 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:41:05,892 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-06-20 17:41:05,892 INFO    SenderThread:5984 [sender.py:transition_state():587] send defer: 14
+2023-06-20 17:41:05,892 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:41:05,892 INFO    HandlerThread:5984 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-20 17:41:05,892 DEBUG   SenderThread:5984 [sender.py:send():336] send: final
+2023-06-20 17:41:05,892 DEBUG   SenderThread:5984 [sender.py:send():336] send: footer
+2023-06-20 17:41:05,892 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:41:05,892 INFO    SenderThread:5984 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-06-20 17:41:05,908 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-20 17:41:05,908 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: server_info
+2023-06-20 17:41:05,908 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-20 17:41:05,908 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: poll_exit
+2023-06-20 17:41:05,908 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-20 17:41:05,908 DEBUG   SenderThread:5984 [sender.py:send_request():363] send_request: server_info
+2023-06-20 17:41:06,299 DEBUG   HandlerThread:5984 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-20 17:41:06,299 INFO    HandlerThread:5984 [handler.py:finish():841] shutting down handler
+2023-06-20 17:41:06,924 INFO    WriterThread:5984 [datastore.py:close():299] close: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_173852-0lnxq5uw\run-0lnxq5uw.wandb
+2023-06-20 17:41:07,314 INFO    SenderThread:5984 [sender.py:finish():1493] shutting down sender
+2023-06-20 17:41:07,314 INFO    SenderThread:5984 [file_pusher.py:finish():162] shutting down file pusher
+2023-06-20 17:41:07,314 INFO    SenderThread:5984 [file_pusher.py:join():167] waiting for file pusher

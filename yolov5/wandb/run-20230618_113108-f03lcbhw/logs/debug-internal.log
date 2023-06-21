@@ -1,0 +1,178 @@
+2023-06-18 11:31:08,405 INFO    StreamThr :3260 [internal.py:wandb_internal():87] W&B internal server running at pid: 3260, started at: 2023-06-18 11:31:08.405765
+2023-06-18 11:31:08,405 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: status
+2023-06-18 11:31:08,421 INFO    WriterThread:3260 [datastore.py:open_for_write():85] open: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\run-f03lcbhw.wandb
+2023-06-18 11:31:08,421 DEBUG   SenderThread:3260 [sender.py:send():336] send: header
+2023-06-18 11:31:08,811 DEBUG   SenderThread:3260 [sender.py:send():336] send: run
+2023-06-18 11:31:08,827 INFO    SenderThread:3260 [sender.py:_maybe_setup_resume():723] checking resume status for None/train/f03lcbhw
+2023-06-18 11:31:10,065 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: check_version
+2023-06-18 11:31:10,069 INFO    SenderThread:3260 [dir_watcher.py:__init__():216] watching files in: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files
+2023-06-18 11:31:10,070 INFO    SenderThread:3260 [sender.py:_start_run_threads():1067] run started: f03lcbhw with start time 1687068068.405764
+2023-06-18 11:31:10,070 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: summary_record
+2023-06-18 11:31:10,071 INFO    SenderThread:3260 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-18 11:31:10,071 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: check_version
+2023-06-18 11:31:10,169 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: run_start
+2023-06-18 11:31:10,200 DEBUG   HandlerThread:3260 [system_info.py:__init__():31] System info init
+2023-06-18 11:31:10,200 DEBUG   HandlerThread:3260 [system_info.py:__init__():46] System info init done
+2023-06-18 11:31:10,200 INFO    HandlerThread:3260 [system_monitor.py:start():151] Starting system monitor
+2023-06-18 11:31:10,200 INFO    SystemMonitor:3260 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-06-18 11:31:10,200 INFO    HandlerThread:3260 [system_monitor.py:probe():172] Collecting system info
+2023-06-18 11:31:10,200 INFO    SystemMonitor:3260 [interfaces.py:start():168] Started cpu
+2023-06-18 11:31:10,216 INFO    SystemMonitor:3260 [interfaces.py:start():168] Started disk
+2023-06-18 11:31:10,216 INFO    SystemMonitor:3260 [interfaces.py:start():168] Started gpu
+2023-06-18 11:31:10,216 INFO    SystemMonitor:3260 [interfaces.py:start():168] Started memory
+2023-06-18 11:31:10,232 INFO    SystemMonitor:3260 [interfaces.py:start():168] Started network
+2023-06-18 11:31:10,232 ERROR   gpu       :3260 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:31:10,232 ERROR   gpu       :3260 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:31:10,247 DEBUG   HandlerThread:3260 [system_info.py:probe():195] Probing system
+2023-06-18 11:31:10,247 DEBUG   HandlerThread:3260 [system_info.py:_probe_git():180] Probing git
+2023-06-18 11:31:10,435 DEBUG   HandlerThread:3260 [system_info.py:_probe_git():188] Probing git done
+2023-06-18 11:31:10,435 DEBUG   HandlerThread:3260 [system_info.py:probe():241] Probing system done
+2023-06-18 11:31:10,435 DEBUG   HandlerThread:3260 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.0', 'heartbeatAt': '2023-06-18T06:01:10.247842', 'startedAt': '2023-06-18T06:01:08.390122', 'docker': None, 'cuda': None, 'args': ('--img', '320', '--batch', '16', '--epochs', '10', '--data', 'dataset.yaml', '--weights', 'yolov5s.pt', '--workers', '1'), 'state': 'running', 'program': 'C:\\Users\\HP\\Documents\\deepdrowsinessdetectionYOLO\\yolov5\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/ultralytics/yolov5', 'commit': 'a199480ba6bb527598df11abbc1d679ccda82670'}, 'email': 'harlalkamayank1996@gmail.com', 'root': 'C:/Users/HP/Documents/deepdrowsinessdetectionYOLO/yolov5', 'host': 'MayankHarlalka', 'username': 'HP', 'executable': 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2401.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 2401.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'total': 222.95805740356445, 'used': 197.9827423095703}, 'gpu': 'NVIDIA GeForce 840M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce 840M', 'memory_total': 2147483648}], 'memory': {'total': 7.931785583496094}}
+2023-06-18 11:31:10,435 INFO    HandlerThread:3260 [system_monitor.py:probe():182] Finished collecting system info
+2023-06-18 11:31:10,435 INFO    HandlerThread:3260 [system_monitor.py:probe():185] Publishing system info
+2023-06-18 11:31:10,435 DEBUG   HandlerThread:3260 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-18 11:31:10,435 DEBUG   HandlerThread:3260 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-18 11:31:10,435 INFO    HandlerThread:3260 [system_monitor.py:probe():187] Finished publishing system info
+2023-06-18 11:31:10,450 DEBUG   SenderThread:3260 [sender.py:send():336] send: files
+2023-06-18 11:31:10,450 INFO    SenderThread:3260 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-06-18 11:31:10,466 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-18 11:31:10,466 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: stop_status
+2023-06-18 11:31:10,841 DEBUG   SenderThread:3260 [sender.py:send():336] send: telemetry
+2023-06-18 11:31:11,076 INFO    Thread-17 :3260 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\output.log
+2023-06-18 11:31:11,076 INFO    Thread-17 :3260 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\wandb-metadata.json
+2023-06-18 11:31:11,076 INFO    Thread-17 :3260 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\requirements.txt
+2023-06-18 11:31:11,076 INFO    Thread-17 :3260 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\wandb-summary.json
+2023-06-18 11:31:11,435 INFO    wandb-upload_0:3260 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdhtq35k7wandb\5a61f5dn-wandb-metadata.json
+2023-06-18 11:31:11,482 DEBUG   SenderThread:3260 [sender.py:send():336] send: exit
+2023-06-18 11:31:11,482 INFO    SenderThread:3260 [sender.py:send_exit():559] handling exit code: 1
+2023-06-18 11:31:11,498 INFO    SenderThread:3260 [sender.py:send_exit():561] handling runtime: 1
+2023-06-18 11:31:11,498 INFO    SenderThread:3260 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-18 11:31:11,498 INFO    SenderThread:3260 [sender.py:send_exit():567] send defer
+2023-06-18 11:31:11,498 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:11,498 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-18 11:31:11,498 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:11,498 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-06-18 11:31:11,498 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 1
+2023-06-18 11:31:11,498 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:11,498 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-18 11:31:11,498 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:11,498 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-06-18 11:31:11,498 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 2
+2023-06-18 11:31:11,498 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:11,498 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-18 11:31:11,498 INFO    HandlerThread:3260 [system_monitor.py:finish():161] Stopping system monitor
+2023-06-18 11:31:11,498 DEBUG   SystemMonitor:3260 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-06-18 11:31:11,498 DEBUG   SystemMonitor:3260 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-06-18 11:31:11,498 DEBUG   SystemMonitor:3260 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-06-18 11:31:11,498 INFO    HandlerThread:3260 [interfaces.py:finish():175] Joined cpu
+2023-06-18 11:31:11,498 INFO    HandlerThread:3260 [interfaces.py:finish():175] Joined disk
+2023-06-18 11:31:11,498 ERROR   gpu       :3260 [interfaces.py:aggregate():146] Failed to serialize metric: [WinError 1455] The paging file is too small for this operation to complete
+2023-06-18 11:31:11,529 ERROR   gpu       :3260 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-18 11:31:11,529 INFO    HandlerThread:3260 [interfaces.py:finish():175] Joined gpu
+2023-06-18 11:31:11,529 INFO    HandlerThread:3260 [interfaces.py:finish():175] Joined memory
+2023-06-18 11:31:11,529 INFO    HandlerThread:3260 [interfaces.py:finish():175] Joined network
+2023-06-18 11:31:11,529 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:11,529 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-06-18 11:31:11,529 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 3
+2023-06-18 11:31:11,529 DEBUG   SenderThread:3260 [sender.py:send():336] send: stats
+2023-06-18 11:31:11,529 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:11,529 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-18 11:31:11,529 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:11,529 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-06-18 11:31:11,529 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 4
+2023-06-18 11:31:11,529 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:11,529 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-18 11:31:11,529 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:11,529 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-06-18 11:31:11,529 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 5
+2023-06-18 11:31:11,529 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:11,529 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-18 11:31:11,529 DEBUG   SenderThread:3260 [sender.py:send():336] send: summary
+2023-06-18 11:31:11,545 INFO    SenderThread:3260 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-18 11:31:11,545 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:11,545 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-06-18 11:31:11,545 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 6
+2023-06-18 11:31:11,545 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:11,545 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-18 11:31:11,545 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:11,545 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-06-18 11:31:11,545 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:31:12,154 INFO    Thread-17 :3260 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\wandb-summary.json
+2023-06-18 11:31:12,154 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 7
+2023-06-18 11:31:12,154 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:12,154 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-18 11:31:12,154 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:12,154 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-06-18 11:31:12,498 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-18 11:31:12,904 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 8
+2023-06-18 11:31:12,904 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: poll_exit
+2023-06-18 11:31:12,904 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:12,904 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-18 11:31:12,904 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:12,904 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-06-18 11:31:12,920 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 9
+2023-06-18 11:31:12,920 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:12,920 DEBUG   SenderThread:3260 [sender.py:send():336] send: artifact
+2023-06-18 11:31:12,920 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-18 11:31:13,169 INFO    Thread-17 :3260 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\output.log
+2023-06-18 11:31:13,169 INFO    Thread-17 :3260 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\config.yaml
+2023-06-18 11:31:13,513 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-18 11:31:14,999 INFO    SenderThread:3260 [sender.py:send_artifact():1417] sent artifact job-https___github.com_ultralytics_yolov5_train.py - {'id': 'QXJ0aWZhY3Q6NDkxMzAzNjAx', 'digest': 'd281bc857fa3e571e470a57e61cd2448', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_ultralytics_yolov5_train.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_ultralytics_yolov5_train.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc3NjA5Mzgy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDkxMzAzNjAx', 'versionIndex': 0}}, 'version': 'v0'}
+2023-06-18 11:31:14,999 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:14,999 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-06-18 11:31:14,999 INFO    SenderThread:3260 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-06-18 11:31:15,202 INFO    SenderThread:3260 [dir_watcher.py:finish():392] scan: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files
+2023-06-18 11:31:15,202 INFO    SenderThread:3260 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\config.yaml config.yaml
+2023-06-18 11:31:15,202 INFO    SenderThread:3260 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\output.log output.log
+2023-06-18 11:31:15,218 INFO    SenderThread:3260 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\requirements.txt requirements.txt
+2023-06-18 11:31:15,234 INFO    SenderThread:3260 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\wandb-metadata.json wandb-metadata.json
+2023-06-18 11:31:15,234 INFO    SenderThread:3260 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\wandb-summary.json wandb-summary.json
+2023-06-18 11:31:15,249 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 10
+2023-06-18 11:31:15,249 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: poll_exit
+2023-06-18 11:31:15,249 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:15,249 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-18 11:31:15,265 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:15,265 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-06-18 11:31:15,265 INFO    SenderThread:3260 [file_pusher.py:finish():162] shutting down file pusher
+2023-06-18 11:31:16,124 INFO    wandb-upload_1:3260 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\output.log
+2023-06-18 11:31:16,281 INFO    wandb-upload_3:3260 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\wandb-summary.json
+2023-06-18 11:31:16,296 INFO    wandb-upload_0:3260 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\config.yaml
+2023-06-18 11:31:16,312 INFO    wandb-upload_2:3260 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\files\requirements.txt
+2023-06-18 11:31:16,531 INFO    Thread-16 (_thread_body):3260 [sender.py:transition_state():587] send defer: 11
+2023-06-18 11:31:16,531 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:16,531 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-18 11:31:16,531 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:16,531 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-06-18 11:31:16,531 INFO    SenderThread:3260 [file_pusher.py:join():167] waiting for file pusher
+2023-06-18 11:31:16,531 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 12
+2023-06-18 11:31:16,531 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:16,531 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-18 11:31:16,531 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:16,531 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-06-18 11:31:16,874 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 13
+2023-06-18 11:31:16,874 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:16,874 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-18 11:31:16,874 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:16,874 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-06-18 11:31:16,874 INFO    SenderThread:3260 [sender.py:transition_state():587] send defer: 14
+2023-06-18 11:31:16,874 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: defer
+2023-06-18 11:31:16,874 INFO    HandlerThread:3260 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-18 11:31:16,874 DEBUG   SenderThread:3260 [sender.py:send():336] send: final
+2023-06-18 11:31:16,874 DEBUG   SenderThread:3260 [sender.py:send():336] send: footer
+2023-06-18 11:31:16,874 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: defer
+2023-06-18 11:31:16,874 INFO    SenderThread:3260 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-06-18 11:31:16,874 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-18 11:31:16,890 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: server_info
+2023-06-18 11:31:16,890 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: poll_exit
+2023-06-18 11:31:16,890 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-18 11:31:16,890 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-18 11:31:16,890 DEBUG   SenderThread:3260 [sender.py:send_request():363] send_request: server_info
+2023-06-18 11:31:17,281 INFO    MainThread:3260 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-06-18 11:31:17,281 INFO    MainThread:3260 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-06-18 11:31:17,281 INFO    MainThread:3260 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-06-18 11:31:17,281 DEBUG   HandlerThread:3260 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-18 11:31:17,281 INFO    HandlerThread:3260 [handler.py:finish():841] shutting down handler
+2023-06-18 11:31:17,906 INFO    WriterThread:3260 [datastore.py:close():299] close: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_113108-f03lcbhw\run-f03lcbhw.wandb
+2023-06-18 11:31:18,296 INFO    SenderThread:3260 [sender.py:finish():1493] shutting down sender
+2023-06-18 11:31:18,296 INFO    SenderThread:3260 [file_pusher.py:finish():162] shutting down file pusher
+2023-06-18 11:31:18,296 INFO    SenderThread:3260 [file_pusher.py:join():167] waiting for file pusher

@@ -1,0 +1,61 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2023-06-18T06:02:12.897015",
+    "startedAt": "2023-06-18T06:02:10.959934",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "320",
+        "--batch",
+        "16",
+        "--epochs",
+        "5",
+        "--data",
+        "dataset.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\HP\\Documents\\deepdrowsinessdetectionYOLO\\yolov5\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "a199480ba6bb527598df11abbc1d679ccda82670"
+    },
+    "email": "harlalkamayank1996@gmail.com",
+    "root": "C:/Users/HP/Documents/deepdrowsinessdetectionYOLO/yolov5",
+    "host": "MayankHarlalka",
+    "username": "HP",
+    "executable": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2401.0,
+        "min": 0.0,
+        "max": 2401.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2401.0,
+            "min": 0.0,
+            "max": 2401.0
+        }
+    ],
+    "disk": {
+        "total": 222.95805740356445,
+        "used": 197.98365783691406
+    },
+    "gpu": "NVIDIA GeForce 840M",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce 840M",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 7.931785583496094
+    }
+}

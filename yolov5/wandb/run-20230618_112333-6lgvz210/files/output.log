@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\train.py", line 642, in <module>
+    main(opt)
+  File "C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\train.py", line 531, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\train.py", line 124, in train
+    ckpt = torch.load(weights, map_location='cpu')  # load checkpoint to CPU to avoid CUDA memory leak
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\serialization.py", line 1046, in _load
+    result = unpickler.load()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\serialization.py", line 1016, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\serialization.py", line 997, in load_tensor
+    storage = zip_file.get_storage_from_record(name, numel, torch._UntypedStorage).storage()._untyped()
+RuntimeError: [enforce fail at ..\c10\core\impl\alloc_cpu.cpp:81] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2359296 bytes.

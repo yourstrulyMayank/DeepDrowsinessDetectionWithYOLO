@@ -1,0 +1,110 @@
+2023-06-18 11:56:45,468 INFO    StreamThr :14532 [internal.py:wandb_internal():87] W&B internal server running at pid: 14532, started at: 2023-06-18 11:56:45.467795
+2023-06-18 11:56:45,470 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status
+2023-06-18 11:56:45,477 INFO    WriterThread:14532 [datastore.py:open_for_write():85] open: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\run-jpc8pwyu.wandb
+2023-06-18 11:56:45,479 DEBUG   SenderThread:14532 [sender.py:send():336] send: header
+2023-06-18 11:56:45,910 DEBUG   SenderThread:14532 [sender.py:send():336] send: run
+2023-06-18 11:56:45,930 INFO    SenderThread:14532 [sender.py:_maybe_setup_resume():723] checking resume status for None/train/jpc8pwyu
+2023-06-18 11:56:47,137 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: check_version
+2023-06-18 11:56:47,146 INFO    SenderThread:14532 [dir_watcher.py:__init__():216] watching files in: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\files
+2023-06-18 11:56:47,146 INFO    SenderThread:14532 [sender.py:_start_run_threads():1067] run started: jpc8pwyu with start time 1687069605.470788
+2023-06-18 11:56:47,147 DEBUG   SenderThread:14532 [sender.py:send_request():363] send_request: summary_record
+2023-06-18 11:56:47,148 INFO    SenderThread:14532 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-18 11:56:47,149 DEBUG   SenderThread:14532 [sender.py:send_request():363] send_request: check_version
+2023-06-18 11:56:47,278 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: run_start
+2023-06-18 11:56:47,314 DEBUG   HandlerThread:14532 [system_info.py:__init__():31] System info init
+2023-06-18 11:56:47,314 DEBUG   HandlerThread:14532 [system_info.py:__init__():46] System info init done
+2023-06-18 11:56:47,314 INFO    HandlerThread:14532 [system_monitor.py:start():151] Starting system monitor
+2023-06-18 11:56:47,314 INFO    SystemMonitor:14532 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-06-18 11:56:47,315 INFO    HandlerThread:14532 [system_monitor.py:probe():172] Collecting system info
+2023-06-18 11:56:47,315 INFO    SystemMonitor:14532 [interfaces.py:start():168] Started cpu
+2023-06-18 11:56:47,319 INFO    SystemMonitor:14532 [interfaces.py:start():168] Started disk
+2023-06-18 11:56:47,320 INFO    SystemMonitor:14532 [interfaces.py:start():168] Started gpu
+2023-06-18 11:56:47,320 INFO    SystemMonitor:14532 [interfaces.py:start():168] Started memory
+2023-06-18 11:56:47,344 INFO    SystemMonitor:14532 [interfaces.py:start():168] Started network
+2023-06-18 11:56:47,354 DEBUG   HandlerThread:14532 [system_info.py:probe():195] Probing system
+2023-06-18 11:56:47,357 DEBUG   HandlerThread:14532 [system_info.py:_probe_git():180] Probing git
+2023-06-18 11:56:47,358 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:47,358 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:47,549 DEBUG   HandlerThread:14532 [system_info.py:_probe_git():188] Probing git done
+2023-06-18 11:56:47,550 DEBUG   HandlerThread:14532 [system_info.py:probe():241] Probing system done
+2023-06-18 11:56:47,550 DEBUG   HandlerThread:14532 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.0', 'heartbeatAt': '2023-06-18T06:26:47.354155', 'startedAt': '2023-06-18T06:26:45.449811', 'docker': None, 'cuda': None, 'args': ('--img', '320', '--batch', '16', '--epochs', '1', '--data', 'dataset.yaml', '--weights', 'yolov5s.pt'), 'state': 'running', 'program': 'C:\\Users\\HP\\Documents\\deepdrowsinessdetectionYOLO\\yolov5\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/ultralytics/yolov5', 'commit': 'a199480ba6bb527598df11abbc1d679ccda82670'}, 'email': 'harlalkamayank1996@gmail.com', 'root': 'C:/Users/HP/Documents/deepdrowsinessdetectionYOLO/yolov5', 'host': 'MayankHarlalka', 'username': 'HP', 'executable': 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2401.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 2401.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'total': 222.95805740356445, 'used': 197.73462295532227}, 'gpu': 'NVIDIA GeForce 840M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce 840M', 'memory_total': 2147483648}], 'memory': {'total': 7.931785583496094}}
+2023-06-18 11:56:47,550 INFO    HandlerThread:14532 [system_monitor.py:probe():182] Finished collecting system info
+2023-06-18 11:56:47,550 INFO    HandlerThread:14532 [system_monitor.py:probe():185] Publishing system info
+2023-06-18 11:56:47,550 DEBUG   HandlerThread:14532 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-18 11:56:47,552 DEBUG   HandlerThread:14532 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-18 11:56:47,553 INFO    HandlerThread:14532 [system_monitor.py:probe():187] Finished publishing system info
+2023-06-18 11:56:47,569 DEBUG   SenderThread:14532 [sender.py:send():336] send: files
+2023-06-18 11:56:47,570 INFO    SenderThread:14532 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-06-18 11:56:47,582 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-18 11:56:47,583 DEBUG   SenderThread:14532 [sender.py:send_request():363] send_request: stop_status
+2023-06-18 11:56:47,972 DEBUG   SenderThread:14532 [sender.py:send():336] send: telemetry
+2023-06-18 11:56:48,171 INFO    Thread-17 :14532 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\files\wandb-summary.json
+2023-06-18 11:56:48,172 INFO    Thread-17 :14532 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\files\wandb-metadata.json
+2023-06-18 11:56:48,172 INFO    Thread-17 :14532 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\files\requirements.txt
+2023-06-18 11:56:48,174 INFO    Thread-17 :14532 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\files\output.log
+2023-06-18 11:56:48,551 INFO    wandb-upload_0:14532 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmp973pkw35wandb\ze2y3pb4-wandb-metadata.json
+2023-06-18 11:56:49,402 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:49,402 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:50,175 INFO    Thread-17 :14532 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\files\output.log
+2023-06-18 11:56:51,021 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:56:51,439 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:51,439 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:53,462 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:53,462 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:55,503 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:55,503 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:56,049 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:56:57,552 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:57,552 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:59,605 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:56:59,605 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:01,083 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:01,652 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:01,652 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:02,577 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-18 11:57:02,578 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-18 11:57:03,674 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:03,675 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:05,712 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:05,713 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:06,155 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:07,743 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:07,744 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:09,771 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:09,772 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:11,178 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:11,794 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:11,795 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:13,816 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:13,816 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:15,846 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:15,846 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:16,215 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:17,390 INFO    Thread-17 :14532 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230618_115645-jpc8pwyu\files\config.yaml
+2023-06-18 11:57:17,999 ERROR   gpu       :14532 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-18 11:57:18,016 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:18,017 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:20,073 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:20,073 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:21,980 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:22,084 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:22,085 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:24,098 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:24,099 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:26,120 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:26,120 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:27,007 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:28,140 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:28,140 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:30,163 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:30,163 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:32,040 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:32,174 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:32,174 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:34,189 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:34,189 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:36,224 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:36,224 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:37,113 DEBUG   HandlerThread:14532 [handler.py:handle_request():144] handle_request: status_report
+2023-06-18 11:57:38,238 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-18 11:57:38,238 ERROR   gpu       :14532 [interfaces.py:monitor():129] Failed to sample metric: Not Supported

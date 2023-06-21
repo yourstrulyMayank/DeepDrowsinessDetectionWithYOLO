@@ -1,0 +1,671 @@
+2023-06-20 17:42:27,566 INFO    StreamThr :1988 [internal.py:wandb_internal():87] W&B internal server running at pid: 1988, started at: 2023-06-20 17:42:27.566171
+2023-06-20 17:42:27,566 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status
+2023-06-20 17:42:27,587 INFO    WriterThread:1988 [datastore.py:open_for_write():85] open: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\run-mdzfba5o.wandb
+2023-06-20 17:42:27,589 DEBUG   SenderThread:1988 [sender.py:send():336] send: header
+2023-06-20 17:42:27,677 DEBUG   SenderThread:1988 [sender.py:send():336] send: run
+2023-06-20 17:42:27,692 INFO    SenderThread:1988 [sender.py:_maybe_setup_resume():723] checking resume status for None/train/mdzfba5o
+2023-06-20 17:42:28,930 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: check_version
+2023-06-20 17:42:28,930 INFO    SenderThread:1988 [dir_watcher.py:__init__():216] watching files in: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files
+2023-06-20 17:42:28,930 INFO    SenderThread:1988 [sender.py:_start_run_threads():1067] run started: mdzfba5o with start time 1687263147.566171
+2023-06-20 17:42:28,930 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:42:28,930 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:42:28,930 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: check_version
+2023-06-20 17:42:29,087 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: run_start
+2023-06-20 17:42:29,337 DEBUG   HandlerThread:1988 [system_info.py:__init__():31] System info init
+2023-06-20 17:42:29,337 DEBUG   HandlerThread:1988 [system_info.py:__init__():46] System info init done
+2023-06-20 17:42:29,337 INFO    HandlerThread:1988 [system_monitor.py:start():151] Starting system monitor
+2023-06-20 17:42:29,337 INFO    SystemMonitor:1988 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-06-20 17:42:29,337 INFO    HandlerThread:1988 [system_monitor.py:probe():172] Collecting system info
+2023-06-20 17:42:29,337 INFO    SystemMonitor:1988 [interfaces.py:start():168] Started cpu
+2023-06-20 17:42:29,337 INFO    SystemMonitor:1988 [interfaces.py:start():168] Started disk
+2023-06-20 17:42:29,337 INFO    SystemMonitor:1988 [interfaces.py:start():168] Started gpu
+2023-06-20 17:42:29,353 INFO    SystemMonitor:1988 [interfaces.py:start():168] Started memory
+2023-06-20 17:42:29,353 INFO    SystemMonitor:1988 [interfaces.py:start():168] Started network
+2023-06-20 17:42:29,369 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:29,369 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:29,384 DEBUG   HandlerThread:1988 [system_info.py:probe():195] Probing system
+2023-06-20 17:42:29,384 DEBUG   HandlerThread:1988 [system_info.py:_probe_git():180] Probing git
+2023-06-20 17:42:29,556 DEBUG   HandlerThread:1988 [system_info.py:_probe_git():188] Probing git done
+2023-06-20 17:42:29,556 DEBUG   HandlerThread:1988 [system_info.py:probe():241] Probing system done
+2023-06-20 17:42:29,556 DEBUG   HandlerThread:1988 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.0', 'heartbeatAt': '2023-06-20T12:12:29.384656', 'startedAt': '2023-06-20T12:12:27.550553', 'docker': None, 'cuda': None, 'args': ('--img', '320', '--batch', '16', '--epochs', '10', '--data', 'dataset.yaml', '--weights', 'yolov5s.pt', '--workers', '2'), 'state': 'running', 'program': 'C:\\Users\\HP\\Documents\\deepdrowsinessdetectionYOLO\\yolov5\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/ultralytics/yolov5', 'commit': 'a199480ba6bb527598df11abbc1d679ccda82670'}, 'email': 'harlalkamayank1996@gmail.com', 'root': 'C:/Users/HP/Documents/deepdrowsinessdetectionYOLO/yolov5', 'host': 'MayankHarlalka', 'username': 'HP', 'executable': 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2401.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 2401.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'total': 222.95805740356445, 'used': 203.84180450439453}, 'gpu': 'NVIDIA GeForce 840M', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce 840M', 'memory_total': 2147483648}], 'memory': {'total': 7.931785583496094}}
+2023-06-20 17:42:29,556 INFO    HandlerThread:1988 [system_monitor.py:probe():182] Finished collecting system info
+2023-06-20 17:42:29,556 INFO    HandlerThread:1988 [system_monitor.py:probe():185] Publishing system info
+2023-06-20 17:42:29,556 DEBUG   HandlerThread:1988 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-20 17:42:29,572 DEBUG   HandlerThread:1988 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-20 17:42:29,572 INFO    HandlerThread:1988 [system_monitor.py:probe():187] Finished publishing system info
+2023-06-20 17:42:29,587 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:42:29,587 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-06-20 17:42:29,587 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-20 17:42:29,603 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: stop_status
+2023-06-20 17:42:29,949 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:42:29,949 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\requirements.txt
+2023-06-20 17:42:29,949 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-metadata.json
+2023-06-20 17:42:29,965 DEBUG   SenderThread:1988 [sender.py:send():336] send: telemetry
+2023-06-20 17:42:30,828 INFO    wandb-upload_0:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\skryg794-wandb-metadata.json
+2023-06-20 17:42:30,953 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:42:31,406 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:31,406 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:32,959 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:42:33,425 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:33,425 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:33,477 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:42:33,930 DEBUG   SenderThread:1988 [sender.py:send():336] send: telemetry
+2023-06-20 17:42:33,970 DEBUG   SenderThread:1988 [sender.py:send():336] send: telemetry
+2023-06-20 17:42:34,231 DEBUG   SenderThread:1988 [sender.py:send():336] send: telemetry
+2023-06-20 17:42:34,964 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:42:35,434 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:35,434 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:36,980 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:42:37,463 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:37,463 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:39,283 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:42:39,486 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:39,486 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:41,535 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:41,551 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:43,653 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:43,653 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:44,403 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:42:44,606 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:42:45,684 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:45,684 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:47,710 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:47,710 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:49,446 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:42:49,665 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:42:49,727 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:49,727 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:51,759 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:51,759 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:53,799 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:53,800 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:54,495 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:42:54,697 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:42:55,810 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:55,810 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:57,833 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:57,833 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:59,730 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:42:59,902 ERROR   gpu       :1988 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:42:59,917 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:59,917 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:42:59,949 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:00,183 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:01,188 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\config.yaml
+2023-06-20 17:43:01,924 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:01,924 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:03,961 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:03,961 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:04,747 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:05,436 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:05,969 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:05,969 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:07,992 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:07,992 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:09,762 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:10,046 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:10,046 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:10,452 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:12,084 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:12,084 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:14,088 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:14,088 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:14,795 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:15,469 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:16,112 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:16,112 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:18,133 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:18,133 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:19,826 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:20,157 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:20,157 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:20,485 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:22,179 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:22,179 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:24,201 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:24,201 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:24,843 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:25,501 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:26,238 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:26,238 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:28,270 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:28,271 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:29,373 DEBUG   SystemMonitor:1988 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-06-20 17:43:29,373 DEBUG   SenderThread:1988 [sender.py:send():336] send: stats
+2023-06-20 17:43:29,860 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:30,316 ERROR   gpu       :1988 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:43:30,331 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:30,331 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:31,380 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:32,338 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:32,338 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:34,344 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:34,344 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:34,878 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:36,345 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:36,345 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:36,408 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:38,372 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:38,372 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:39,987 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:40,411 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:40,411 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:40,536 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:41,900 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:42,433 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:42,433 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:44,455 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:44,455 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:45,066 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:46,492 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:46,492 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:46,561 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:47,167 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:48,515 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:48,515 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:48,578 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:50,097 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:50,552 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:50,552 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:50,584 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:52,214 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:52,245 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:52,245 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:52,245 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:52,245 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:52,245 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:52,245 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:52,245 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:52,245 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:52,245 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:52,245 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:52,590 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:43:52,606 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:52,606 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:52,606 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:53,281 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:43:53,281 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Labels_0_8d0260cce16378675d03.jpg with policy now
+2023-06-20 17:43:53,281 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:43:53,281 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Labels_0_6a746361d950933c6e62.jpg with policy now
+2023-06-20 17:43:53,313 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:43:53,328 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:43:53,328 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:53,328 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:53,610 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:43:53,610 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Labels_0_6a746361d950933c6e62.jpg
+2023-06-20 17:43:53,610 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Labels_0_8d0260cce16378675d03.jpg
+2023-06-20 17:43:53,610 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images
+2023-06-20 17:43:53,610 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media
+2023-06-20 17:43:54,614 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:54,629 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:54,629 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:54,879 INFO    wandb-upload_0:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\hbbch9oe-media/images/Labels_0_8d0260cce16378675d03.jpg
+2023-06-20 17:43:55,053 INFO    wandb-upload_1:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\36b2133p-media/images/Labels_0_6a746361d950933c6e62.jpg
+2023-06-20 17:43:55,726 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:43:56,636 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:56,636 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:56,652 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:57,655 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:43:58,675 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:58,675 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:43:58,676 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:43:58,878 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:58,894 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:43:58,894 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:58,894 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:58,894 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:58,894 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:58,894 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:58,894 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:58,894 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:58,894 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:58,894 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:58,894 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:43:58,894 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:43:58,894 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:43:59,379 DEBUG   SenderThread:1988 [sender.py:send():336] send: stats
+2023-06-20 17:43:59,676 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:00,711 ERROR   gpu       :1988 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:44:00,711 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:00,711 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:00,711 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:01,370 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:02,717 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:02,717 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:02,733 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:03,236 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:04,497 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:04,497 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:04,500 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:04,501 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:04,502 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:04,503 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:04,505 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:04,506 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:04,508 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:04,509 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:04,510 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:04,511 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:04,511 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:04,513 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:04,741 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:04,741 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:04,741 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:04,741 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:06,748 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:06,748 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:06,748 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:06,967 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:08,252 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:08,780 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:08,786 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:08,786 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:10,241 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:10,241 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:10,241 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:10,241 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:10,241 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:10,241 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:10,241 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:10,241 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:10,241 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:10,241 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:10,241 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:44:10,241 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Mosaics_3_98a5ddd5f5126ef84f80.jpg with policy now
+2023-06-20 17:44:10,257 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:44:10,257 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Mosaics_3_dfba4866c8e64348e9ed.jpg with policy now
+2023-06-20 17:44:10,257 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:44:10,257 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Mosaics_3_7bdaf0fb0beb65a18a40.jpg with policy now
+2023-06-20 17:44:10,304 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:10,304 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:10,304 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:10,304 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:10,807 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:10,807 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:10,822 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:10,822 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:10,822 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Mosaics_3_7bdaf0fb0beb65a18a40.jpg
+2023-06-20 17:44:10,822 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Mosaics_3_dfba4866c8e64348e9ed.jpg
+2023-06-20 17:44:10,822 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Mosaics_3_98a5ddd5f5126ef84f80.jpg
+2023-06-20 17:44:10,822 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images
+2023-06-20 17:44:11,998 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:12,155 INFO    wandb-upload_2:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\5vofsrzh-media/images/Mosaics_3_7bdaf0fb0beb65a18a40.jpg
+2023-06-20 17:44:12,170 INFO    wandb-upload_0:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\jl2qsk4q-media/images/Mosaics_3_98a5ddd5f5126ef84f80.jpg
+2023-06-20 17:44:12,405 INFO    wandb-upload_1:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\u49cg5lv-media/images/Mosaics_3_dfba4866c8e64348e9ed.jpg
+2023-06-20 17:44:12,829 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:12,845 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:12,845 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:13,692 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:14,851 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:14,867 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:14,867 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:15,980 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:15,980 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:15,980 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:15,980 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:15,980 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:15,980 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:15,980 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:15,980 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:15,980 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:15,995 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:15,995 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:15,995 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:15,995 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:15,995 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:16,890 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:16,890 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:16,890 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:16,890 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:17,470 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:18,897 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:18,897 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:18,897 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:19,256 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:20,924 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:20,930 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:20,930 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:21,531 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:21,531 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:21,531 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:21,531 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:21,531 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:21,531 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:21,531 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:21,531 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:21,531 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:21,531 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:21,531 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:21,531 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:21,531 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:21,531 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:21,937 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:22,942 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:22,942 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:22,942 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:22,973 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:24,822 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:24,974 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:24,981 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:24,981 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:27,012 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:27,012 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:27,012 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:27,291 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:27,307 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:27,307 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:27,307 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:28,024 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:28,821 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:29,039 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:29,055 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:29,055 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:29,383 DEBUG   SenderThread:1988 [sender.py:send():336] send: stats
+2023-06-20 17:44:30,598 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:31,113 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:31,113 ERROR   gpu       :1988 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:44:31,133 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:31,133 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:33,127 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:33,150 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:33,151 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:33,276 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:33,276 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:33,276 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:33,276 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:33,292 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:33,292 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:33,292 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:33,292 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:33,292 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:33,292 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:33,292 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:33,292 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:33,292 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:33,292 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:34,136 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:34,370 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:35,156 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:35,172 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:35,172 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:35,954 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:37,192 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:37,192 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:37,192 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:39,259 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:39,267 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:39,267 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:39,435 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:39,435 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:39,435 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:39,435 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:39,435 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:39,450 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:39,450 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:39,450 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:39,450 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:39,450 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:39,450 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:39,450 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:39,450 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:39,450 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:39,763 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:40,265 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:41,267 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:41,299 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:41,299 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:41,722 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:43,276 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:43,323 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:43,323 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:44,795 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:45,298 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:45,345 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:45,345 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:45,423 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:45,423 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:45,423 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:45,423 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:45,423 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:45,423 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:45,423 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:45,438 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:45,438 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:45,438 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:45,438 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:45,438 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:44:45,438 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:44:45,438 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:44:46,300 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:44:46,756 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:47,303 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:47,382 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:47,382 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:49,314 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:49,405 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:49,405 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:49,864 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:51,349 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:51,468 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:51,468 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:51,928 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:53,496 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:53,496 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:54,954 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:44:55,517 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:55,517 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:57,085 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:44:57,401 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:44:57,526 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:57,526 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:58,481 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-20 17:44:58,481 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: log_artifact
+2023-06-20 17:44:58,809 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_25e14ce7aa798aeb1ecb.png
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_c0ceb7d0e4534ce58f6e.jpg
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_2d523ff495bbe5745922.jpg
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_7030e2e659828f4cec9c.png
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_27b6cc9b4906d8faec94.png
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_3531310f9f0ea4996313.jpg
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_8b99e9043e3429432883.png
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_8d5d7a79664c84e57b2b.png
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_f4795365a15afee70ba0.jpg
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_985c5a3db4cef5ba1ff1.png
+2023-06-20 17:44:59,423 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images
+2023-06-20 17:44:59,564 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:59,564 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:44:59,829 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-20 17:45:01,600 ERROR   gpu       :1988 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:45:01,616 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:01,616 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:03,648 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:03,648 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:04,884 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:45:05,689 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:05,690 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:07,369 INFO    wandb-upload_2:1988 [upload_job.py:push():96] Uploaded file C:\Users\HP\AppData\Local\wandb\wandb\artifacts\staging\tmprw101zbg
+2023-06-20 17:45:07,704 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:07,704 ERROR   gpu       :1988 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-06-20 17:45:09,221 INFO    SenderThread:1988 [sender.py:send_request_log_artifact():1381] logged artifact run_mdzfba5o_model - {'id': 'QXJ0aWZhY3Q6NDkzNDUyNTQw', 'digest': 'd339fc59ce326fa6eace448b8c06abce', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc4MDMyNjMx', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-20 17:45:09,221 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,221 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Validation_10_c0ceb7d0e4534ce58f6e.jpg with policy now
+2023-06-20 17:45:09,221 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Validation_10_3531310f9f0ea4996313.jpg with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Validation_10_2d523ff495bbe5745922.jpg with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Validation_10_f4795365a15afee70ba0.jpg with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Results_10_8b99e9043e3429432883.png with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Results_10_985c5a3db4cef5ba1ff1.png with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Results_10_7030e2e659828f4cec9c.png with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Results_10_27b6cc9b4906d8faec94.png with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Results_10_25e14ce7aa798aeb1ecb.png with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: files
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file media\images\Results_10_8d5d7a79664c84e57b2b.png with policy now
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: history
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: summary_record
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: telemetry
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: exit
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:send_exit():559] handling exit code: 0
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:send_exit():561] handling runtime: 149
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:send_exit():567] send defer
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send():336] send: stats
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: poll_exit
+2023-06-20 17:45:09,236 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:09,236 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 1
+2023-06-20 17:45:09,236 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:09,236 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-20 17:45:09,236 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:09,236 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-06-20 17:45:09,252 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 2
+2023-06-20 17:45:09,252 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:09,252 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-20 17:45:09,252 INFO    HandlerThread:1988 [system_monitor.py:finish():161] Stopping system monitor
+2023-06-20 17:45:09,263 DEBUG   SystemMonitor:1988 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-06-20 17:45:09,263 DEBUG   SystemMonitor:1988 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-06-20 17:45:09,283 INFO    HandlerThread:1988 [interfaces.py:finish():175] Joined cpu
+2023-06-20 17:45:09,294 INFO    HandlerThread:1988 [interfaces.py:finish():175] Joined disk
+2023-06-20 17:45:09,295 ERROR   gpu       :1988 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-06-20 17:45:09,295 INFO    HandlerThread:1988 [interfaces.py:finish():175] Joined gpu
+2023-06-20 17:45:09,295 INFO    HandlerThread:1988 [interfaces.py:finish():175] Joined memory
+2023-06-20 17:45:09,295 INFO    HandlerThread:1988 [interfaces.py:finish():175] Joined network
+2023-06-20 17:45:09,296 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:09,296 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-06-20 17:45:09,296 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 3
+2023-06-20 17:45:09,297 DEBUG   SenderThread:1988 [sender.py:send():336] send: stats
+2023-06-20 17:45:09,297 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:09,298 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-20 17:45:09,298 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:09,298 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-06-20 17:45:09,298 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 4
+2023-06-20 17:45:09,299 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:09,299 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-20 17:45:09,299 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:09,299 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-06-20 17:45:09,299 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 5
+2023-06-20 17:45:09,300 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:09,300 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-20 17:45:09,306 DEBUG   SenderThread:1988 [sender.py:send():336] send: summary
+2023-06-20 17:45:09,308 INFO    SenderThread:1988 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-06-20 17:45:09,310 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:09,310 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-06-20 17:45:09,310 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 6
+2023-06-20 17:45:09,311 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:09,311 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-20 17:45:09,313 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:09,313 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-06-20 17:45:09,328 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:45:09,569 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:45:09,950 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:45:10,097 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 7
+2023-06-20 17:45:10,097 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:10,097 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-20 17:45:10,097 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:10,097 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-06-20 17:45:10,585 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\config.yaml
+2023-06-20 17:45:10,931 INFO    wandb-upload_0:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\0r35sdlw-media/images/Validation_10_2d523ff495bbe5745922.jpg
+2023-06-20 17:45:11,102 INFO    wandb-upload_9:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\pckzfqbt-media/images/Results_10_8d5d7a79664c84e57b2b.png
+2023-06-20 17:45:11,118 INFO    wandb-upload_2:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\bes2xg0f-media/images/Validation_10_3531310f9f0ea4996313.jpg
+2023-06-20 17:45:11,165 INFO    wandb-upload_3:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\betj1woo-media/images/Validation_10_f4795365a15afee70ba0.jpg
+2023-06-20 17:45:11,165 INFO    wandb-upload_8:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\4posp2ba-media/images/Results_10_25e14ce7aa798aeb1ecb.png
+2023-06-20 17:45:11,181 INFO    wandb-upload_7:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\ayzlyhbw-media/images/Results_10_27b6cc9b4906d8faec94.png
+2023-06-20 17:45:11,385 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 8
+2023-06-20 17:45:11,385 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:11,385 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-20 17:45:11,385 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:11,385 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-06-20 17:45:11,822 INFO    wandb-upload_5:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\jv567ygg-media/images/Results_10_985c5a3db4cef5ba1ff1.png
+2023-06-20 17:45:11,822 INFO    wandb-upload_1:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\djnh3fap-media/images/Validation_10_c0ceb7d0e4534ce58f6e.jpg
+2023-06-20 17:45:11,822 INFO    wandb-upload_6:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\pxqo6pm7-media/images/Results_10_7030e2e659828f4cec9c.png
+2023-06-20 17:45:11,900 INFO    Thread-17 :1988 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:45:11,947 INFO    wandb-upload_4:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpdu7ta51xwandb\9kela8pk-media/images/Results_10_8b99e9043e3429432883.png
+2023-06-20 17:45:12,041 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 9
+2023-06-20 17:45:12,041 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:12,041 DEBUG   SenderThread:1988 [sender.py:send():336] send: artifact
+2023-06-20 17:45:12,041 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-20 17:45:14,048 INFO    wandb-upload_7:1988 [upload_job.py:push():93] Skipped uploading C:\Users\HP\AppData\Local\wandb\wandb\artifacts\staging\tmpw9jp5kmy
+2023-06-20 17:45:14,926 INFO    wandb-upload_0:1988 [upload_job.py:push():96] Uploaded file C:\Users\HP\AppData\Local\wandb\wandb\artifacts\staging\tmpb4oxf2gq
+2023-06-20 17:45:14,973 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:45:17,340 INFO    SenderThread:1988 [sender.py:send_artifact():1417] sent artifact job-https___github.com_ultralytics_yolov5_train.py - {'id': 'QXJ0aWZhY3Q6NDkzNDUyNzA1', 'digest': 'afe5046ea0e3aeae287bc2e70fcf238a', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc3NjA5Mzgy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDkzNDQ5MzY3', 'versionIndex': 1}}, 'version': 'latest'}
+2023-06-20 17:45:17,340 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:17,340 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: status_report
+2023-06-20 17:45:17,340 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-06-20 17:45:17,340 INFO    SenderThread:1988 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-06-20 17:45:17,924 INFO    SenderThread:1988 [dir_watcher.py:finish():392] scan: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files
+2023-06-20 17:45:17,925 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\config.yaml config.yaml
+2023-06-20 17:45:17,925 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log output.log
+2023-06-20 17:45:17,930 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\requirements.txt requirements.txt
+2023-06-20 17:45:17,934 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-metadata.json wandb-metadata.json
+2023-06-20 17:45:17,935 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json wandb-summary.json
+2023-06-20 17:45:17,946 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Labels_0_6a746361d950933c6e62.jpg media\images\Labels_0_6a746361d950933c6e62.jpg
+2023-06-20 17:45:17,946 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Labels_0_8d0260cce16378675d03.jpg media\images\Labels_0_8d0260cce16378675d03.jpg
+2023-06-20 17:45:17,946 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Mosaics_3_7bdaf0fb0beb65a18a40.jpg media\images\Mosaics_3_7bdaf0fb0beb65a18a40.jpg
+2023-06-20 17:45:17,947 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Mosaics_3_98a5ddd5f5126ef84f80.jpg media\images\Mosaics_3_98a5ddd5f5126ef84f80.jpg
+2023-06-20 17:45:17,947 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Mosaics_3_dfba4866c8e64348e9ed.jpg media\images\Mosaics_3_dfba4866c8e64348e9ed.jpg
+2023-06-20 17:45:17,947 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_25e14ce7aa798aeb1ecb.png media\images\Results_10_25e14ce7aa798aeb1ecb.png
+2023-06-20 17:45:17,948 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_27b6cc9b4906d8faec94.png media\images\Results_10_27b6cc9b4906d8faec94.png
+2023-06-20 17:45:17,948 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_7030e2e659828f4cec9c.png media\images\Results_10_7030e2e659828f4cec9c.png
+2023-06-20 17:45:17,948 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_8b99e9043e3429432883.png media\images\Results_10_8b99e9043e3429432883.png
+2023-06-20 17:45:17,948 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_8d5d7a79664c84e57b2b.png media\images\Results_10_8d5d7a79664c84e57b2b.png
+2023-06-20 17:45:17,948 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Results_10_985c5a3db4cef5ba1ff1.png media\images\Results_10_985c5a3db4cef5ba1ff1.png
+2023-06-20 17:45:17,948 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_2d523ff495bbe5745922.jpg media\images\Validation_10_2d523ff495bbe5745922.jpg
+2023-06-20 17:45:17,948 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_3531310f9f0ea4996313.jpg media\images\Validation_10_3531310f9f0ea4996313.jpg
+2023-06-20 17:45:17,949 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_c0ceb7d0e4534ce58f6e.jpg media\images\Validation_10_c0ceb7d0e4534ce58f6e.jpg
+2023-06-20 17:45:17,949 INFO    SenderThread:1988 [dir_watcher.py:finish():406] scan save: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\media\images\Validation_10_f4795365a15afee70ba0.jpg media\images\Validation_10_f4795365a15afee70ba0.jpg
+2023-06-20 17:45:17,949 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 10
+2023-06-20 17:45:17,949 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:17,949 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-20 17:45:17,950 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:17,950 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-06-20 17:45:17,950 INFO    SenderThread:1988 [file_pusher.py:finish():162] shutting down file pusher
+2023-06-20 17:45:18,798 INFO    wandb-upload_8:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\config.yaml
+2023-06-20 17:45:18,798 INFO    wandb-upload_3:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\output.log
+2023-06-20 17:45:18,829 INFO    wandb-upload_6:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\requirements.txt
+2023-06-20 17:45:19,018 INFO    wandb-upload_1:1988 [upload_job.py:push():138] Uploaded file C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\files\wandb-summary.json
+2023-06-20 17:45:19,223 INFO    Thread-16 (_thread_body):1988 [sender.py:transition_state():587] send defer: 11
+2023-06-20 17:45:19,223 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:19,223 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-20 17:45:19,223 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:19,223 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-06-20 17:45:19,223 INFO    SenderThread:1988 [file_pusher.py:join():167] waiting for file pusher
+2023-06-20 17:45:19,223 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 12
+2023-06-20 17:45:19,223 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:19,223 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-20 17:45:19,223 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:19,223 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-06-20 17:45:19,989 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-20 17:45:20,005 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 13
+2023-06-20 17:45:20,005 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:20,005 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-20 17:45:20,005 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:20,005 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-06-20 17:45:20,005 INFO    SenderThread:1988 [sender.py:transition_state():587] send defer: 14
+2023-06-20 17:45:20,020 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: defer
+2023-06-20 17:45:20,020 INFO    HandlerThread:1988 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-20 17:45:20,020 DEBUG   SenderThread:1988 [sender.py:send():336] send: final
+2023-06-20 17:45:20,020 DEBUG   SenderThread:1988 [sender.py:send():336] send: footer
+2023-06-20 17:45:20,020 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: defer
+2023-06-20 17:45:20,020 INFO    SenderThread:1988 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-06-20 17:45:20,020 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-20 17:45:20,020 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: server_info
+2023-06-20 17:45:20,020 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-20 17:45:20,020 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-20 17:45:20,020 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: poll_exit
+2023-06-20 17:45:20,036 DEBUG   SenderThread:1988 [sender.py:send_request():363] send_request: server_info
+2023-06-20 17:45:20,444 DEBUG   HandlerThread:1988 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-20 17:45:20,444 INFO    HandlerThread:1988 [handler.py:finish():841] shutting down handler
+2023-06-20 17:45:21,039 INFO    WriterThread:1988 [datastore.py:close():299] close: C:\Users\HP\Documents\deepdrowsinessdetectionYOLO\yolov5\wandb\run-20230620_174227-mdzfba5o\run-mdzfba5o.wandb
+2023-06-20 17:45:21,464 INFO    SenderThread:1988 [sender.py:finish():1493] shutting down sender
+2023-06-20 17:45:21,464 INFO    SenderThread:1988 [file_pusher.py:finish():162] shutting down file pusher
+2023-06-20 17:45:21,464 INFO    SenderThread:1988 [file_pusher.py:join():167] waiting for file pusher
